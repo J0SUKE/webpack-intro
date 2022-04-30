@@ -1,6 +1,3 @@
-// var affiche = require("./affiche.js");
+import salut from "./affiche.js";
 
-// affiche("hello Node JS"); 
-import lodash from "lodash";
-
-console.log(lodash);
+console.log(salut());

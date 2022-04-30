@@ -1,5 +1,5 @@
-function affiche(mesg) {
-    console.log(mesg);
+function sayHi() {
+    return "Salut";
 }
 
-module.exports = affiche;
+export default sayHi;
